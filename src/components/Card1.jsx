@@ -20,7 +20,7 @@ const Card1 = () => {
                 />
             </a>
             <div class="p-5">
-                <a target={`_blank`} href="https://www.maxfashion.in/in/en/">
+                <a target={ `_blank` } href="https://www.maxfashion.in/in/en/">
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                         Clone of maxfashion.com
                     </h5>
@@ -32,12 +32,12 @@ const Card1 = () => {
                 </p>
                 <div className="flex gap-1 justify-between">
                     <div className="  justify-between">
-                        <a target="_blank"
+                        <a
+                            target="_blank"
                             href="https://medium.com/@akshaysinghr98/our-journey-to-constructing-a-clone-website-of-max-fashion-www-maxfashion-in-a51940db1f1"
                             className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300 m-2"
                         >
-                           BLOG
-                         
+                            BLOG
                             <svg
                                 className="ml-2 -mr-1 w-4 h-4"
                                 fill="currentColor"
@@ -52,10 +52,11 @@ const Card1 = () => {
                             </svg>
                         </a>
                         <a
-                          target="_blank"  href="https://github.com/Aakashvani/MaxFashion-Clone"
+                            target="_blank"
+                            href="https://github.com/Aakashvani/MaxFashion-Clone"
                             className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300 m-2"
                         >
-                           GitHub
+                            GitHub
                             <svg
                                 className="ml-2 -mr-1 w-4 h-4"
                                 fill="currentColor"
@@ -73,10 +74,11 @@ const Card1 = () => {
 
                     <div>
                         <a
-                         target="_blank"   href="https://maxfashion-clone.netlify.app/"
+                            target="_blank"
+                            href="https://maxfashion-clone.netlify.app/"
                             className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300 m-2"
                         >
-                           Demo
+                            Demo
                             <svg
                                 className="ml-2 -mr-1 w-4 h-4"
                                 fill="currentColor"
@@ -91,10 +93,11 @@ const Card1 = () => {
                             </svg>
                         </a>
                         <a
-                          target='_blank'  href="https://youtu.be/Tm2Lr8nbuHE"
+                            target="_blank"
+                            href="https://youtu.be/Tm2Lr8nbuHE"
                             className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300 m-2"
                         >
-                           Video
+                            Video
                             <svg
                                 className="ml-2 -mr-1 w-4 h-4"
                                 fill="currentColor"
@@ -106,7 +109,6 @@ const Card1 = () => {
                                     d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
                                     clip-rule="evenodd"
                                 ></path>
-
                             </svg>
                         </a>
                     </div>

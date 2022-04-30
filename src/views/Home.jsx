@@ -5,10 +5,10 @@ import { ThemeContext } from "../themeProvider";
 import { motion } from "framer-motion";
 import cloud from "../assets/cloudBg.png";
 // import cloudDark from "../assets/cloudDark.png";
-import myPic from "../assets/myPic.png"
+import myPic from "../assets/myPic.png";
 // import myResume from "https://drive.google.com/file/d/1FTa8nJzJSXDUoKCFxbPAcSCLvKf1mYiY/view?usp=sharing"
-import myResume from "../assets/Akshay Kumar Resume.pdf"
-import cloudDark from "../assets/Pin-on-Super-gif.gif"
+import myResume from "../assets/Akshay Kumar Resume.pdf";
+import cloudDark from "../assets/Pin-on-Super-gif.gif";
 
 const Home = () => {
     const theme = useContext(ThemeContext);
@@ -23,7 +23,7 @@ const Home = () => {
                 }
             >
                 <main
-                    className="mx-auto max-w-7xl px-4 sm:px-6 h-screen md:mt-0 lg:px-8 flex flex-col md:flex-row items-center justify-center md:justify-between h-screen"  
+                    className="mx-auto max-w-7xl px-4 sm:px-6 h-screen md:mt-0 lg:px-8 flex flex-col md:flex-row items-center justify-center md:justify-between h-screen"
                     id="/"
                 >
                     <div className="sm:text-center lg:text-left">
@@ -56,12 +56,14 @@ const Home = () => {
                                     : "mt-3 text-base text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
                             }
                         >
-                           Passionate Full Stack Web Developer with a specializaion in MERN Stack
+                            Passionate Full Stack Web Developer with a specializaion in MERN
+                            Stack
                         </p>
                         <div className="flex md:justify-start ">
                             { contactLinks.map((el) => (
                                 <a
-                                target='_blank'    href={ el.link }
+                                    target="_blank"
+                                    href={ el.link }
                                     className="mr-5 cursor-pointer mt-8 hover:scale-125"
                                 >
                                     <img alt="" src={ el.url } />
@@ -70,14 +72,14 @@ const Home = () => {
                             )) }
                         </div>
                         <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                            {/* download="Akshay Kumar Resume"  */}
+                            {/* download="Akshay Kumar Resume"  */ }
                             <a target="_blank" href={ myResume }>
-                            <div className="mt-3 sm:mt-0 cursor-pointer w-full">
+                                <div className="mt-3 sm:mt-0 cursor-pointer w-full">
                                     <p className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-400 md:py-4 md:text-lg md:px-10">
-                                   Download Resume
+                                        Download Resume
                                     </p>
                                 </div>
-                           </a>
+                            </a>
                         </div>
                     </div>
                     <motion.img

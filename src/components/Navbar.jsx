@@ -4,9 +4,6 @@ import { ThemeContext } from "../themeProvider";
 import { motion, AnimatePresence } from "framer-motion";
 import Hamburger from "hamburger-react";
 
-
-
-
 const Navbar = () => {
     const theme = useContext(ThemeContext);
     const [ toggle, setToggle ] = useState(false);
@@ -61,7 +58,7 @@ const Navbar = () => {
                                     : "text-xl font-medium text-decoration-none whitespace-nowrap text-white"
                             }
                         >
-                            <h1 className="text-xl font font-medium">{ `< 𝓐𝓴𝓼𝓱𝓪𝔂 />` }</h1> 
+                            <h1 className="text-xl font font-medium">{ `< 𝓐𝓴𝓼𝓱𝓪𝔂 />` }</h1>
                         </a>
                     </div>
                     <div class="hidden justify-between items-center w-full md:flex md:w-auto ">
