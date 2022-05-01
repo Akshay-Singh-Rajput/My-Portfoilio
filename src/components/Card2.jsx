@@ -90,7 +90,7 @@ const Card2 = () => {
                             </svg>
                         </a>
                         <a
-                            target='_blank' href="https://youtu.be/Tm2Lr8nbuHE"
+                            target='_blank' href="https://youtu.be/UZ6SQDQlBcY"
                             className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300 m-2"
                         >
                             Video
