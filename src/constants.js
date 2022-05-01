@@ -74,11 +74,11 @@ export const techStack = [
 ];
 
 export const contactLinks = [
-    {
-        name: "Instagram",
-        url: "https://img.icons8.com/doodle/40/000000/instagram-new--v2.png",
-        link: "https://www.instagram.com/",
-    },
+    // {
+    //     name: "Instagram",
+    //     url: "https://img.icons8.com/doodle/40/000000/instagram-new--v2.png",
+    //     link: "https://www.instagram.com/",
+    // },
     {
         name: "Github",
         url: "https://img.icons8.com/doodle/40/000000/github--v1.png",

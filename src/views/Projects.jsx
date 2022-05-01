@@ -20,8 +20,8 @@ const Projects = () => {
                     What I Built
                 </h4>
                 <div className="mt-8 flex justify-between items-stretch flex-wrap md:center">
-                    <Card2 />
                     <Card1 />
+                    <Card2 />
                 </div>
                 <a
                     target="_blank"
