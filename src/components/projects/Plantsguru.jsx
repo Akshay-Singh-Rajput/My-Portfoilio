@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const Card2 = () => {
+const Plantsguru = () => {
     return (
         <motion.div
             initial={ "hidden" }
@@ -114,4 +114,4 @@ const Card2 = () => {
         </motion.div>
     );
 };
-export default Card2
+export default Plantsguru;

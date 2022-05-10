@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
-import Card1 from "../components/Card1";
-import Card2 from "../components/Card2";
+import Farfetch from "../components/projects/Farfetch";
+import Maxfashion from "../components/projects/Maxfashion";
+import Plantsguru from "../components/projects/Plantsguru";
 import { ThemeContext } from "../themeProvider";
 
 const Projects = () => {
@@ -20,8 +21,9 @@ const Projects = () => {
                     What I Built
                 </h4>
                 <div className="mt-8 flex justify-between items-stretch flex-wrap md:center">
-                    <Card1 />
-                    <Card2 />
+                    <Farfetch />
+                    <Maxfashion />
+                    <Plantsguru  />
                 </div>
                 <a
                     target="_blank"
