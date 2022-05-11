@@ -31,7 +31,8 @@ const About = () => {
                                     : "mt-4 text-xl text-justify text-white"
                             }
                         >
-                          FullStack Web Developer with knowledge of MERN Stack along with a knack of building apllication. I take into consideration the
+                            Hi I am Akshay, 24 years old Web Developer, Currently living in Bhopal, India.
+                         I am a FullStack Web Developer with knowledge of MERN Stack along with a knack of building apllication. I consider the
                             user experience while writing reusable and efficient code. I
                             passionately combine good design, technology, and innovation in
                             all my projects, which I like to accompany from the first idea to
