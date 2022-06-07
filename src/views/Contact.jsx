@@ -31,6 +31,7 @@ const Contact = () => {
                 <div className="flex justify-between items-center md:items-stretch  flex-col md:flex-row pb-24">
                     <div className="w-full md:pr-8">
                         <form
+                            target="_blank"
                             action='https://formsubmit.co/akshaysinghr98@gmail.com'
                             method='POST'
                         >
@@ -48,6 +49,7 @@ const Contact = () => {
                                 <input
                                     type="name"
                                     id="name"
+                                    name="name"
                                     class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                                     placeholder="Enter your name"
                                     required
@@ -67,6 +69,7 @@ const Contact = () => {
                                 <input
                                     type="email"
                                     id="email"
+                                    name="email"
                                     class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                                     placeholder="Enter your email"
                                     required
@@ -85,6 +88,7 @@ const Contact = () => {
                                 </label>
                                 <textarea
                                     id="message"
+                                    name="message"
                                     class="bg-gray-50 border border-gray-300 text-gray-900 h-28 w-full text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                                     placeholder="Enter your message"
                                     required
