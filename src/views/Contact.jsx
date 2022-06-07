@@ -31,7 +31,6 @@ const Contact = () => {
                 <div className="flex justify-between items-center md:items-stretch  flex-col md:flex-row pb-24">
                     <div className="w-full md:pr-8">
                         <form
-                            target="_blank"
                             action='https://formsubmit.co/akshaysinghr98@gmail.com'
                             method='POST'
                         >
