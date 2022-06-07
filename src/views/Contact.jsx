@@ -30,7 +30,10 @@ const Contact = () => {
                 </div>
                 <div className="flex justify-between items-center md:items-stretch  flex-col md:flex-row pb-24">
                     <div className="w-full md:pr-8">
-                        <form>
+                        <form
+                            action='https://formsubmit.co/akshaysinghr98@gmail.com'
+                            method='POST'
+                        >
                             <div class="my-6">
                                 <label
                                     for="name"
@@ -93,8 +96,8 @@ const Contact = () => {
                                         Send me email directly
                                     </a>
                                 </div>
-                                <button className="bg-indigo-500 text-white px-4 py-2 w-40 rounded-md hover:bg-indigo-400">
-                                    <a href="akshaysinghr98@gmail.com">Submit</a>
+                                <button className="bg-indigo-500 text-white px-4 py-2 w-40 rounded-md hover:bg-indigo-400" type="submit">
+                                    Submit
                                 </button>
                             </div>
                         </form>
