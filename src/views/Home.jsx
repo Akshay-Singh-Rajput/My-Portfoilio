@@ -1,18 +1,19 @@
 import React, { useContext } from "react";
-import Typical from "react-typical";
+import Typewriter from "typewriter-effect";
 import { contactLinks } from "../constants";
 import { ThemeContext } from "../themeProvider";
 import { motion } from "framer-motion";
 import cloud from "../assets/cloudBg.png";
 // import cloudDark from "../assets/cloudDark.png";
 import myPic from "../assets/myPic.png";
-// import myResume from "https://drive.google.com/file/d/1FTa8nJzJSXDUoKCFxbPAcSCLvKf1mYiY/view?usp=sharing"
-import myResume from "../assets/Akshay Kumar Resume.pdf";
+// import myResume from "../assets/Akshay Kumar Resume.pdf";
 import cloudDark from "../assets/Pin-on-Super-gif.gif";
 
 const Home = () => {
+    const myResume = "https://drive.google.com/file/d/1ABfMFFrpzt4a4xOvqnu4Oz-bgAxaV6t4/view?usp=sharing"
     const theme = useContext(ThemeContext);
     const darkMode = theme.state.darkMode;
+    
     return (
         <>
             <div
@@ -34,22 +35,21 @@ const Home = () => {
                                 Hi, I am Akshay
                             </motion.span>
                             <span className="block text-blue-500 z-0 lg:inline">
-                                <Typical
-                                    steps={ [
-                                        "A Full Stack Developer",
-                                        1000,
-                                        "A Mern-Stack",
-                                        1000,
-                                        "A Web Developer",
-                                        1000,
-                                        "A React Developer.",
-                                        1000,
-                                        "A Programmer",
-                                        1000,
-                                        "A Student.",
-                                        1000,
-                                    ] }
-                                    loop={ Infinity }
+
+                                <Typewriter
+                                    options={ {
+                                        strings: [
+                                            "A Full Stack Developer",
+                                            "MERN Stack Developer",
+                                            "A Programmer",
+                                            "A Web Developer",
+                                            "A React Developer.",
+                                            "A Student.",
+                                        ],
+                                        autoStart: true,
+                                        loop: true,
+                                        deleteSpeed: 60,
+                                    } }
                                 />
                             </span>
                         </h1>

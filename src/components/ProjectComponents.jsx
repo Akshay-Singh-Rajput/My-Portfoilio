@@ -23,7 +23,7 @@ const ProjectComponents = ({
             className="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8 md:content-center"
         >
             <a href="hello">
-                <img className="rounded-t-lg w-full" src={ imgSrc } alt="" />
+                <img className="rounded-t-lg w-full object-cover" src={ imgSrc } alt="" />
             </a>
             <div className="p-5">
                 <a target={ `_blank` } href={ originalLink }>
