@@ -19,7 +19,7 @@ const Navbar = () => {
         },
         {
             name: "Skills",
-            route: "services",
+            route: "skills",
         },
         {
             name: "Projects",
@@ -61,14 +61,14 @@ const Navbar = () => {
                             <h1 className="text-xl font font-medium">{ `< 𝓐𝓴𝓼𝓱𝓪𝔂 />` }</h1>
                         </a>
                     </div>
-                    <div class="hidden justify-between items-center w-full md:flex md:w-auto ">
+                    <div className="hidden justify-between items-center w-full md:flex md:w-auto ">
                         <ul
-                            class={
+                            className={
                                 "flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-md md:font-medium"
                             }
                         >
                             { links.map((el) => (
-                                <li className="cursor-pointer">
+                                <li className="cursor-pointer" key={ el.route }>
                                     <Link
                                         to={ el.route }
                                         activeClass={ "text-white bg-blue-500" }
@@ -146,6 +146,7 @@ const Navbar = () => {
                         <ul class="md:hidden md:flex-row md:space-y-8 md:mt-0 md:text-md md:font-medium">
                             { links.map((el) => (
                                 <Link
+                                    key={ el.route }
                                     to={ el.route }
                                     activeClass={ "text-white bg-blue-500" }
                                     className={

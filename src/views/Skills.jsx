@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { techStack } from "../constants";
 
 
-const Services = () => {
+const Skills = () => {
     const theme = useContext(ThemeContext);
     return (
         <div
@@ -16,7 +16,7 @@ const Services = () => {
         >
             <div
                 className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 px-4 pt-20"
-                id="services"
+                id="skills"
             >
                 <h2
                     className={
@@ -35,6 +35,7 @@ const Services = () => {
                         <motion.div className="/flex flex-wrap mt-8 flex flex-wrap justify-between sm:grid-cols-2 ">
                         { techStack.map((el) => (
                             <motion.div
+                            key={el.name}
                                 initial="hidden"
                                 whileInView={ "visible" }
                                 variants={ {
@@ -62,4 +63,4 @@ const Services = () => {
     );
 };
 
-export default Services;
+export default Skills;
