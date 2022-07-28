@@ -31,11 +31,11 @@ const Projects = () => {
                     target="_blank"
                     rel="noreferrer"
                     href="https://github.com/Akshay-Singh-Rajput/ProjectsLibrary"
-                    class=" w-32 flex items-center py-4 px-4 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mx-auto mt-4"
+                    className=" w-32 flex items-center py-4 px-4 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mx-auto mt-4"
                 >
                     Show More
                     <svg
-                        class="ml-2 -mr-1 w-4 h-4"
+                        className="ml-2 -mr-1 w-4 h-4"
                         fill="currentColor"
                         viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg"

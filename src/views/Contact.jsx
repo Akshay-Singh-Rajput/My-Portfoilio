@@ -10,8 +10,8 @@ const Contact = () => {
             id="contact"
             className={
                 darkMode
-                    ? "bg-gray-100 pt-24 md:h-screen"
-                    : "pt-20 bg-gray-900 text-white md:h-full"
+                    ? "bg-gray-100 pt-10 md:h-full"
+                    : "bg-gray-900 pt-10 text-white md:h-full"
             }
         >
             <div className="max-w-7xl mx-auto x-4 sm:px-6 lg:px-8 px-4 ">
@@ -34,10 +34,10 @@ const Contact = () => {
                             action='https://formsubmit.co/akshaysinghr98@gmail.com'
                             method='POST'
                         >
-                            <div class="my-6">
+                            <div className="my-6">
                                 <label
                                     for="name"
-                                    class={
+                                    className={
                                         darkMode
                                             ? "block mb-2 text-lg font-medium text-gray-900"
                                             : "block mb-2 text-lg font-medium text-white"
@@ -57,7 +57,7 @@ const Contact = () => {
                             <div className="mb-4">
                                 <label
                                     for="email"
-                                    class={
+                                    className={
                                         darkMode
                                             ? "block mb-2 text-lg font-medium text-gray-900"
                                             : "block mb-2 text-lg font-medium text-white"
@@ -69,7 +69,7 @@ const Contact = () => {
                                     type="email"
                                     id="email"
                                     name="email"
-                                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                    className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                                     placeholder="Enter your email"
                                     required
                                 />
@@ -77,7 +77,7 @@ const Contact = () => {
                             <div className="mb-4">
                                 <label
                                     for="message"
-                                    class={
+                                    className={
                                         darkMode
                                             ? "block mb-2 text-lg font-medium text-gray-900"
                                             : "block mb-2 text-lg font-medium text-white"
@@ -88,7 +88,7 @@ const Contact = () => {
                                 <textarea
                                     id="message"
                                     name="message"
-                                    class="bg-gray-50 border border-gray-300 text-gray-900 h-28 w-full text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                    className="bg-gray-50 border border-gray-300 text-gray-900 h-28 w-full text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                                     placeholder="Enter your message"
                                     required
                                 />
@@ -104,15 +104,16 @@ const Contact = () => {
                                 </button>
                             </div>
                         </form>
-                    </div>
+                    </div>  
+                    
                     <div className="w-full flex flex-col md:items-end  mt-12 md:mt-6">
-                        {/* <h1 className="text-3xl font-bold">Phone</h1>
+                        <h1 className="text-3xl font-bold">Phone</h1>
             <a
               href="hello"
               className="mb-12 mt-4 font-semibold text-blue-700 block uppercase"
             >
-              +91 8285631499
-            </a> */}
+              +91 9340542711
+            </a>
                         <h1 className="text-3xl font-bold">Email</h1>
                         <a
                             href="akshaysinghr98@gmail.com"
@@ -125,7 +126,7 @@ const Contact = () => {
                             href="hello"
                             className="mt-4  mb-12 md:text-right font-semibold text-blue-700 block"
                         >
-                            Ayodhya Nagar,Bhopal <br /> Madhya Pardesh
+                            Sector 43, Gurugram,<br /> Haryana 122022
                             <br />
                             India
                         </a>
@@ -147,7 +148,7 @@ const Contact = () => {
             <div
                 className={
                     darkMode
-                        ? "w-full bg-white text-black text-lg py-3 flex justify-center"
+                        ? "w-full bg-gray-100 text-black text-lg py-3 flex justify-center"
                         : "w-full bg-gray-900 text-white text-lg py-3 flex justify-center"
                 }
             >
