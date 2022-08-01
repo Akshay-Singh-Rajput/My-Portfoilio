@@ -23,9 +23,9 @@ const Projects = () => {
                 </h4>
                 <div className="mt-8 flex justify-between items-stretch flex-wrap md:center">
                     <FarfetchProject />
+                    <ShortURLProject  />
                     <MaxfashionProject />
                     <PlantsguruProject />
-                    <ShortURLProject  />
                 </div>
                 <a
                     target="_blank"

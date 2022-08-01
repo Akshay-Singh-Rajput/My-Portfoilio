@@ -9,7 +9,7 @@ export const FarfetchProject = () => {
             originalLink={ "https://www.farfetch.com/" }
             title={ "Clone of farfetch.com" }
             about={
-                " Farfetch is a British-Portuguese online luxury fashion retail platform that sells products from over 700 boutiques and brands from around the world. The company was founded in 2007 by the Portuguese entrepreneur José Neves with its headquarters in London and main branches in Lisbon and Porto."
+                "Farfetch is a British-Portuguese online luxury fashion retail platform that sells products from over 700 boutiques and brands from around the world. The company was founded in 2007 by the Portuguese entrepreneur José Neves with its headquarters in London and main branches in Lisbon and Porto."
             }
             blogLink={
                 "https://medium.com/@abhishek94.bhaskar/unit-5-construct-week-3de333e31528"

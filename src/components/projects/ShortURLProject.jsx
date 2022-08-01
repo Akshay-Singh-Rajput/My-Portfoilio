@@ -10,7 +10,7 @@ export const ShortURLProject = () => {
             originalLink={ "https://shorturlweb.herokuapp.com/" }
             title={ "Short URL" }
             about={
-                "Short URL is web app which generate a short url of your long url so you can remember your url or it's easy to store and share, This Project developed using MongoDB, Express.js, React.js, Node.js and ChakraUI" }
+                "Short URL is web app which generate a short url of your long url, so you can remember your url or it's easy to store and share, This Project is developed by using MongoDB, Express.js, React.js, Node.js and ChakraUI" }
             blogLink={
                 "#"
             }

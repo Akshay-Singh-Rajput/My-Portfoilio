@@ -20,20 +20,21 @@ const ProjectComponents = ({
                 visible: { opacity: 1 },
                 hidden: { opacity: 0 },
             } }
-            className="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8 md:content-center"
+            className="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8 md:content-center "
         >
             <a href="hello">
-                <img className="rounded-t-lg w-full object-cover" src={ imgSrc } alt="" />
+                <img className="rounded-t-lg w-full object-cover " src={ imgSrc } alt="project_img" />
             </a>
-            <div className="p-5">
+            <div className="p-5" >
                 <a target={ `_blank` } href={ originalLink }>
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                         { title }
                     </h5>
                 </a>
                 <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">{ about }</p>
+
                 <div className="flex gap-1 justify-between">
-                    <div className="  justify-between">
+                    <div className="  justify-between ">
                         <a
                             target="_blank"
                             href={ blogLink }

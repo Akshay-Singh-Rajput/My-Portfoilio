@@ -1,5 +1,5 @@
 body{
-  width : 101%
+  width : 100%
 }
 ::before,
 ::after {
@@ -67,4 +67,10 @@ body{
   .eduUpdate div {
     margin-top: 10px;
   }
+}
+
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
 }
