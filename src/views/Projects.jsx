@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { FarfetchProject } from "../components/projects/FarfetchProject";
 import { MaxfashionProject } from "../components/projects/MaxfashionProject";
 import { PlantsguruProject } from "../components/projects/PlantsguruProject";
+import { React_Redux_Cart } from "../components/projects/React_Redux_Cart";
 import { ShortURLProject } from "../components/projects/ShortURLProject";
 import { ThemeContext } from "../themeProvider";
 
@@ -22,8 +23,9 @@ const Projects = () => {
                     What I Built
                 </h4>
                 <div className="mt-8 flex justify-between items-stretch flex-wrap md:center">
-                    <FarfetchProject />
+                    {/* <FarfetchProject /> */}
                     <ShortURLProject  />
+                    <React_Redux_Cart />
                     <MaxfashionProject />
                     <PlantsguruProject />
                 </div>
