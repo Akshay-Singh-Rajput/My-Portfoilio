@@ -10,7 +10,7 @@ import myPic from "../assets/myPic.png";
 import cloudDark from "../assets/Pin-on-Super-gif.gif";
 
 const Home = () => {
-    const myResume = "https://drive.google.com/file/d/1ABfMFFrpzt4a4xOvqnu4Oz-bgAxaV6t4/view?usp=sharing"
+    const myResume = "https://drive.google.com/file/d/1FPBY2jfPbqU24wUT9q8aZPdVVW2PsgWt/view"
     const theme = useContext(ThemeContext);
     const darkMode = theme.state.darkMode;
     

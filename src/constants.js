@@ -8,16 +8,24 @@ export const techStack = [
         link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg",
     },
     {
+        name: "SCSS",
+        link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+    },
+    {
+        name: "Tailwind CSS",
+        link: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+    },
+    {
+        name: "Jquery",
+        link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain.svg",
+    },
+    {
         name: "Javascript",
         link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
     },
     {
-        name: "NodeJS",
-        link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg",
-    },
-    {
-        name: "Bash",
-        link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg",
+        name: "Typescript",
+        link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg"
     },
     {
         name: "React",
@@ -28,38 +36,44 @@ export const techStack = [
         link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg",
     },
     {
-        name: "Express",
-        link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg",
+        name: "Ruby",
+        link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-plain.svg",
     },
-    // {
-    //     name: "Bootstrap",
-    //     link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg",
-    // },
-    {
-        name: "Tailwind CSS",
-        link: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
-    },
-
-    {
-        name: "Postman",
-        link: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
-    },
-
     {
         name: "Mongo DB",
         link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg",
     },
     {
-        name: "Heroku",
-        link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain.svg",
+        name: "Express",
+        link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg",
+    },
+    {
+        name: "NodeJS",
+        link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg",
+    },
+    {
+        name: "Git",
+        link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg",
+    },
+    {
+        name: "Bitbucket",
+        link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bitbucket/bitbucket-original.svg"
     },
     // {
-    //     name: "Git",
-    //     link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg",
+    //     name: "Ruby Mine",
+    //     link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rubymine/rubymine-plain.svg",
     // },
+    {
+        name: "Postman",
+        link: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
+    },
     {
         name: "VS Code",
         link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
+    },
+    {
+        name: "Bash",
+        link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg",
     },
     {
         name: "Ubuntu",
@@ -69,8 +83,6 @@ export const techStack = [
         name: "Wordpress",
         link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg",
     },
-        // { name: "Npm", link: "https://github.com/devicons/devicon/blob/master/icons/npm/npm-plain.svg" },
-        // { name: "Webpack", link: "https://github.com/devicons/devicon/blob/master/icons/webpack/webpack-plain.svg" },
 ];
 
 export const contactLinks = [

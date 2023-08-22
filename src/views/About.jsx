@@ -8,7 +8,7 @@ const About = () => {
     const theme = useContext(ThemeContext);
     const darkMode = theme.state.darkMode;
     return (
-        <div id="about" className={ darkMode === true ? "bg-white" : "bg-gray-900" }>
+        <div id="about" className={darkMode === true ? "bg-white" : "bg-gray-900"}>
             <div className="max-w-7xl mx-auto x-4 sm:px-6 lg:px-8 px-4 md:mt-0 pt-24 pb-12">
                 <h2
                     className={
@@ -31,20 +31,20 @@ const About = () => {
                                     : "mt-4 text-xl text-justify text-white"
                             }
                         >
-                            Hi I am Akshay, 24 years old Web Developer, Currently living in Bhopal, India.
-                         I am a FullStack Web Developer with knowledge of MERN Stack along with a knack of building apllication. I consider the
-                            user experience while writing reusable and efficient code. I
-                            passionately combine good design, technology, and innovation in
-                            all my projects, which I like to accompany from the first idea to
-                            release.Currently, I'm focused on the backend development.
+                            I'm Akshay, a Software Developer based in Gurgaon, India.
+                            Currently, I'm working as a Software Developer focused on frontend technologies since August 2022.
+                            With over 1 year of frontend development experience, I specialize in FullStack Web Development, particularly the dynamic MERN Stack.
+                            I thrive on merging user-centric design with technology, crafting innovative solutions that ensure a seamless user journey.
+                            When not immersed in coding, you can find me engrossed in reading tech blogs or enjoying a game of cricket.
+                            Let's reshape the digital realm together.
                         </p>
                     </motion.div>
-                  
-                        <Education  />
-                        
+
+                    <Education />
+
                 </div>
             </div>
-            
+
         </div>
     );
 };

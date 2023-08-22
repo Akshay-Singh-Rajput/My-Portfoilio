@@ -8,9 +8,9 @@ export const ShortURLProject = () => {
                 "https://user-images.githubusercontent.com/97354310/172386629-b58f856d-ead9-412e-8daf-50c0c3f8edb3.png"
             }
             originalLink={ "https://shorturlweb.herokuapp.com/" }
-            title={ "Short URL" }
+            title={ "URL Shortener Web Application" }
             about={
-                "Short URL is web app which generate a short url of your long url, so you can remember your url or it's easy to store and share, This Project is developed by using MongoDB, Express.js, React.js, Node.js and ChakraUI" }
+                "It is a user-friendly web-based tool that allows users to create shortened versions of long URLs, making them easier to share. This project is built using the MERN stack (MongoDB, Express, React, Node.js) and styled with Chakra UI for a visually appealing and responsive user interface" }
             blogLink={
                 "#"
             }
